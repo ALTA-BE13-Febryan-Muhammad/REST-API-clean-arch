@@ -47,7 +47,3 @@ func (delivery *UserDelivery) Create(c echo.Context) error {
 	}
 	return c.JSON(http.StatusCreated, helper.SuccessResponse("success create data"))
 }
-
-func ()  {
-	
-}
